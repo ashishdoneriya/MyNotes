@@ -1,0 +1,6 @@
+ffmpeg -i input.avi -acodec libfaac -ab 128k -vcodec libx264 -vpre hq -vpre baseline -s 320x240 -threads 0 -crf 26 output.mp4
+ffmpeg -t 10 -i input.avi -acodec libfaac -ab 128k -vcodec libx264 -vpre hq -vpre baseline -s 320x240 -threads 0 -crf 26 output.mp4
+
+
+
+sudo apt-get install libsdl-image1.2 libsdl-image1.2-dev guile-1.8 guile-1.8-dev

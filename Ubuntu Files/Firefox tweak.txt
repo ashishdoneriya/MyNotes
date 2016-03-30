@@ -1,0 +1,5 @@
+Speed Up Firefox By Enabling Its New HTTP Cache
+
+browser.cache.use_new_backend
+Change its value from 0 to 1 to enable the new cache.
+Close about:config and continue browsing—no need to restart or anything.

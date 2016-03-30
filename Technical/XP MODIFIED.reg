@@ -1,0 +1,50 @@
+Windows Registry Editor Version 5.00
+
+;Turn off windows animation
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
+"MinAnimate"="0"
+
+;Disable autorun
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Cdrom]
+"AutoRun"=dword:00000000
+
+;Boot Computer Faster
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Dfrg\BootOptimizeFunction]
+"Enable"="Y"
+
+;Disable error reporting
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PCHealth\ErrorReporting]
+"DoReport"=dword:00000000
+
+;Load Kernel into RAM for faster start up
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"DisablePagingExecutive"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000003
+
+;Increase bandwidth by 20%
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Psched]
+"NonBestEffortLimit"=dword:00000000
+
+;Load Applications faster
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000009
+
+;No pop up on boot
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Windows]
+"NoPopUpsOnBoot"=dword:00000001
+
+;Internet tweak
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"MaxConnectionsPerServer"=dword:00000020
+"MaxConnectionsPer1_0Server"=dword:00000020
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
+"MaxConnectionsPerServer"=dword:00000020
+"MaxConnectionsPer1_0Server"=dword:00000020
+
+
+;CHANGE DEFAULT PROGRAM INSTALL LOCATION
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion]
+"ProgramFilesDir"="C:\\Program Files"

@@ -1,0 +1,1 @@
+sudo sysctl -w net.ipv4.tcp_rmem="4096 32500 45000" net.ipv4.tcp_wmem="4096 32500 45000" net.ipv4.tcp_mem="45000 45000 45000" net.ipv4.tcp_no_metrics_save=1 net.ipv4.tcp_moderate_rcvbuf=1

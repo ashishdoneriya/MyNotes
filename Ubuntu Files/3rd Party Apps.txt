@@ -1,0 +1,2 @@
+Genymotion -- android emulator for linux
+Unsetting

@@ -1,0 +1,15 @@
+Themes and icons---
+/usr/share/themes
+/usr/share/icons
+
+
+Tomboy & gnote storage -----
+/home/ashish/.local/share/gnote
+
+automatic sudo commands for startup----
+gedit /etc/rc.local
+
+Grub timeout
+sudo gedit /etc/default/grub
+sudo update-grub
+

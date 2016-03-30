@@ -1,0 +1,7 @@
+Remove Music Players from Ubuntu Sound Menu
+
+sudo apt-get install dconf-editor
+
+ com > canonical > indicator > sound
+
+interested-media-players

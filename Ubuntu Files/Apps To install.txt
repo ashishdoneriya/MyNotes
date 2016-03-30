@@ -1,0 +1,36 @@
+vlc
+qbittorrent
+quiterss
+geany
+g++
+java
+icetead
+jdk
+synaptic
+virtual box
+galculator
+all video downloader
+mac theme
+ubuntu tweak
+samba
+adobe flash player
+wine
+namebench
+squid3
+gdebi
+rar
+mysql
+playonlinux
+calibre
+kolour paint
+hplib
+axel
+tasque
+cheese webcam
+plex
+color
+ubuntu restricted extras
+unetboot
+audacity
+tux
+basket

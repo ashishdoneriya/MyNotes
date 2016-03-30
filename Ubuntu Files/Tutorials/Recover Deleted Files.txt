@@ -1,0 +1,2 @@
+sudo extundelete --restore-file /home/ashish/tmp/remaster-new-files/livecd.iso /dev/sda5
+sudo extundelete --restore-file /d/My Documents/My Videos/Episodes/Suits/ --output-dir "/d/recover" /dev/sda5 

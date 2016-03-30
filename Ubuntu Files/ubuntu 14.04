@@ -1,0 +1,118 @@
+commands--
+
+Disable the boneheaded overlay scrollbars----
+gsettings set com.canonical.desktop.interface scrollbar-mode normal
+
+Turn off shutdown dialogue box in Ubuntu 14.04
+gsettings set com.canonical.indicator.session suppress-logout-restart-shutdown true
+
+Put the username back on the the panel----
+gsettings set com.canonical.indicator.session show-real-name-on-panel true
+
+Fix Brightness---
+Find graphics card---    ls /sys/class/backlight/
+If it is intel then ----
+sudo touch /usr/share/X11/xorg.conf.d/20-intel.conf
+sudo gedit /usr/share/X11/xorg.conf.d/20-intel.conf
+
+and paste the code---
+
+Section "Device"
+        Identifier  "card0"
+        Driver      "intel"
+        Option      "Backlight"  "intel_backlight"
+        BusID       "PCI:0:2:0"
+
+EndSection
+
+Grub Disable
+sudo gedit /etc/default/grub
+
+GRUB_DISABLE_OS_PROBER="true"
+
+Enable auto save in Gedit:
+
+Open the terminal and use the following command to enable autosave in Gedit:
+gsettings set org.gnome.gedit.preferences.editor auto-save true
+
+Set or change the autosave interval:
+gsettings org.gnome.gedit.preferences.editor auto-save-interval n
+where n is no, of minutes to autosave
+
+
+
+
+Backspace key does not work in Mozilla Firefox in Ubuntu Linux
+
+Type about:config in the address bar
+Click yes to the warning
+Now search for browser:backspace_action
+Double click on it to change its value from 2 to 0
+
+
+
+'Open in Terminal' command to Nautilus Context menu in Ubuntu 11.10
+
+sudo apt-get install nautilus-open-terminal
+sudo apt-get install compizconfig-settings-manager
+This will install the package for the feature to be activated and then you have to reset the nautilus file browser.
+nautilus -q
+
+
+
+Enable or Disable Guest Account Logon
+sudo gedit /etc/lightdm/lightdm.conf
+add a line
+allow-guest=false
+
+
+Showing full list of startup applications and processes
+sudo sed -i 's/NoDisplay=true/NoDisplay=false/g' /etc/xdg/autostart/*.desktop
+
+
+Unity Dash search result :-
+sudo apt-get remove unity-scope-musicstores 
+
+install apt-fast
+
+sudo add-apt-repository ppa:apt-fast/stable
+sudo apt-get update
+sudo apt-get install apt-fast
+to reconfigure------ sudo dpkg-reconfigure apt-fast
+
+
+sudo apt-get install gnome-shell
+
+Optimize swap usage
+
+Disable Guest Account
+To disable the guest account, run the command sudo gedit /etc/lightdm/lightdm.conf and add this line to the end of the file: allow-guest=false
+
+Enable Hibernation
+make sure that your system has a swap partition on the hard drive that is at least as big as the amount of installed RAM.
+To enable hibernation, run the command sudo gedit /var/lib/polkit-1/localauthority/50-local.d/hibernate.pkla and copy and paste the following into that file:
+
+Unsetting
+sudo add-apt-repository ppa:diesch/testing
+sudo apt-get update
+sudo apt-get install unsettings
+
+[Re-enable Hibernate]
+Identity=unix-user:*
+Action=org.freedesktop.upower.hibernate
+ResultActive=yes
+This makes a configuration file modification which the system will read during each boot up.
+
+
+
+
+
+First, check the value of swappiness in Applications -> Accessories -> Terminal with this command:
+cat /proc/sys/vm/swappiness
+Temporarily change swappiness value to 10 using following command, and it will be reverted in next restart.
+sudo sysctl vm.swappiness=10
+To permanently change this value:
+gksudo gedit /etc/sysctl.conf
+Search for vm.swappiness and change its value as desired. If vm.swappiness does not exist, add it to the end of the file like so:
+vm.swappiness=10
+Finally, save the file and reboot

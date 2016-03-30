@@ -1,0 +1,5 @@
+INDICATOR NETSPEED DISPLAYS NETWORK SPEED ON THE UNITY PANEL
+
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install indicator-netspeed

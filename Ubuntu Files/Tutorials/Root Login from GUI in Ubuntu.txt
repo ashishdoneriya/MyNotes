@@ -1,0 +1,15 @@
+Root Login from GUI in Ubuntu 12.04
+
+Many of us already know that ubuntu in its every distro has root login disabled by default. Still some root-lovers find it convenient to login directly as root. Normally it is a good practice to not use root account directly. It can be hazardous in both intentional or unknowing ways. I usually prefer sudo and su commands for any such root access in ubuntu.
+
+Still if you want to enable your root account then you will need to follow the below mentioned steps -
+1. Open up your terminal
+
+2. Execute the below command to enable the root login from GUI. (Considering the fact that your root account password is already set)
+# sudo gedit /etc/lightdm/lightdm.conf
+
+3.Here in this file we have to add one more line that goes as follows
+greeter-show-manaul-login=true
+
+3. Reboot the system for the changes to take effect and login as root by username as root and the corresponding root password.
+
