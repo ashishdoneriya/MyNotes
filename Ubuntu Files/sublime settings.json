@@ -11,6 +11,7 @@
 	"line_padding_bottom": 1,				//Increase the line height
 	"line_padding_top": 1,					//Increase the line height
 	"fade_fold_buttons": false,				//The arrows aren’t visible until you hover.
+	"draw_white_space": "all",
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme"
 }
 /*
