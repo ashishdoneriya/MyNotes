@@ -18,6 +18,6 @@ sudo apt-get remove gnome-orca*
 #Unity Dash search result :-
 sudo apt-get remove unity-scope-musicstores
 
-sudo apt-get purge unity-lens-friends unity-scope-audacious unity-scope-chromiumbookmarks unity-scope-clementine unity-scope-colourlovers unity-scope-devhelp unity-scope-firefoxbookmarks unity-scope-gdrive unity-scope-gmusicbrowser unity-scope-gourmet unity-scope-guayadeque unity-scope-manpages unity-scope-musicstores unity-scope-musique unity-scope-openclipart unity-scope-texdoc unity-scope-tomboy unity-scope-video-remote unity-scope-virtualbox unity-scope-yelp unity-scope-zotero unity-lens-friends unity-lens-music unity-lens-photos unity-lens-video
+sudo apt-get remove $(dpkg --get-selections | cut -f1 | grep -P "^unity-(lens|scope)-" | grep -vP "unity-(lens|scope)-(home|applications)" | tr "\n" " ")
 
 sudo apt-get autoremove
