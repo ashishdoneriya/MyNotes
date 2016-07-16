@@ -1,0 +1,23 @@
+Remove black line from (15.04 - Vivid) Files/Nautilus sidebar
+
+Copying your theme to your home folder
+Open a terminal:
+
+mkdir ~/.themes/
+cp -R /usr/share/themes/Ambiance/ ~/.themes/Ambiance
+
+(if you are not using the Ambiance theme (default), you will need to adapt the last command)
+
+Editing nautilus.css
+In a terminal open nautilus.css:
+
+gedit ~/.themes/Ambiance/gtk-3.0/apps/nautilus.css
+Add the following lines to the end of the file:
+
+NautilusWindow .sidebar .separator,
+NautilusWindow .sidebar .view .separator {
+   color: shade (@bg_color, 0.95); 
+}
+Save the file.
+
+Log out and in again (or enter nautilus -q command in Terminal to restart Nautilus) and you are done.
