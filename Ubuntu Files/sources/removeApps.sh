@@ -18,6 +18,6 @@ sudo apt-get remove gnome-orca*
 #Unity Dash search result :-
 sudo apt-get remove unity-scope-musicstores
 
-sudo apt-get remove $(dpkg --get-selections | cut -f1 | grep -P "^unity-(lens|scope)-" | grep -vP "unity-(lens|scope)-(home|applications)" | tr "\n" " ")
+sudo apt-get remove $(dpkg --get-selections | cut -f1 | grep -P "^unity-(lens|scope)-" | grep -vP "unity-(lens|scope)-(home|applications|files)" | tr "\n" " ")
 
 sudo apt-get autoremove
