@@ -6,3 +6,65 @@ slitaz-aircrack-ng-20091124.iso
 ubuntu-14.04.2-desktop-amd64.iso
 zorin-os-11-core-64.iso
 elementry os
+
+The 5 Ultimate Scientific Linux Distributions :
+1. Bio-Linux
+scientific-linux-distros-bio-linux
+
+This green-colored distro is aimed at scientists who work in bioinformatics — an interdisciplinary field that combines molecular biology and genetics with statistics and analysis methods from computer science. Developed at the Environmental Omics Synthesis Centre in the UK, Bio-Linux is supported and funded by the Centre for Ecology & Hydrology (CEH) and Natural Environment Research Council (NERC).
+
+It’s an Ubuntu-based distribution available for 64-bit systems only, and it offers two desktop environments: Unity as default and MATE as a lightweight alternative. The latest version (8.0.5) guarantees long-term support thanks to its Ubuntu 14.04 core. Bio-Linux 8 packs literally hundreds of bioinformatics tools, both command-line and graphical. To help you get started, Bio-Linux offers a PDF guide.
+
+Software Highlights: Artemis, a DNA sequence viewer and annotation app; Galaxy, a browser-based biomedical research platform; Fasta, for searching DNA and protein databases; Mesquite, for evolutionary biology; njplot, for drawing phylogenetic trees, and Rasmol, for visualizing macromolecules. If you want to install packages from Bio-Linux on your Ubuntu-based system, you can simply add their repositories.
+
+Bio-Linux is available for free as a Live image and as an OVA file in case you want to run it in VirtualBox.
+
+Alternative: BioSLAX, a Slackware-based scientific distribution focused on bioinformatics and developed at the National University of Singapore.
+
+2. Poseidon Linux
+scientific-linux-distros-poseidon
+
+Like Bio-Linux, Poseidon Linux also has a color scheme: gentle blue tones that match its marine name. The branding was inspired by oceanologists who work on the project, but Poseidon Linux is not for just one branch of science. Instead it offers a wide range of tools, from 2D and 3D visualization, genetics, and programming apps to support for statistics, numerical modeling and mapping.
+
+Poseidon Linux is the result of a transatlantic cooperation between the Rio Grande Federal University in Brazil and the MARUM Institute in Germany. The current stable version (4.0) is lagging behind the times, since it’s based on Ubuntu 10.04. However, Poseidon 5.0 is in development, and it promises long-term support (relying on Ubuntu 12.04) and Unity as the default desktop environment — a welcome upgrade from the old GNOME 2.30 which comes with Poseidon 4.0.
+
+Software Highlights: Lab Plot, for interactive graphing and data analysis; QCAD, for 2D drawing; Blender, for 3D modelling, and QGIS, a complete geographic information system.
+
+You can download Poseidon Linux for free in both 32- and 64-bit editions.
+
+Alternative: If you only need geography and mapping tools, try OSGeo, a Lubuntu-based product of the Open Source Geospatial Foundation.
+
+3. CAElinux
+scientific-linux-distros-cae
+
+The clue is in the name: CAE stands for Computer-Aided Engineering, and this scientific distro is perfect for anyone who works with CAD, modelling, prototyping, 3D printing, and physics simulations. Developed in Switzerland, CAElinux is based on Xubuntu 12.04 and requires a 64-bit system. It doesn’t offer any desktop flavors apart from Xfce, but its software selection is impressive.
+
+Software Highlights: Salome, for 3D CAD and meshing; GMSH, for geometry modelling; Scilab, for mathematical programming; Paraview, for 3D visualization; ImageJ, for image processing and analysis, and Elmer, for complex physical models.
+
+CAElinux is available as a Live DVD image for free, or you can order a physical copy at an affordable price.
+
+Alternative: If you don’t need all the advanced engineering software and just want some 3D modelling and animation tools, try ArtistX, which we covered in detail.
+
+4. Scientific Linux
+scientific-linux-distros-scientificlinux
+
+After all these *buntu-based distros, Scientific Linux is a true combo-breaker: it’s a rebuild of Red Hat Enterprise Linux. Latest version (7.1, codenamed Nitrogen) came out just recently, in three flavors—KDE, GNOME, and IceWM—for 64-bit systems only. However, its base is not the only thing that makes Scientific Linux stand out. Unlike other distros which are brimming with scientific software, Scientific Linux offers only a basic set of apps. What a sneaky, misleading distro!
+
+Well, not really. Scientific Linux is, in fact, developed by scientists at the Fermi National Accelerator Laboratory and the European Organization for Nuclear Research (CERN). While it doesn’t offer many scientific applications by default, there are dozens readily available in the repositories. With codecs and wireless support out-of-the-box, Scientific Linux is a great choice for a scientific environment in which everything is expected to function without too much tinkering. Users can install only the software they need, so their system won’t be cluttered with apps they’ll never even open.
+
+Software Highlights: PostgreSQL and MySQL, for databases and application development; GNU Emacs text editor; R programming language; Frysk, for system analysis and monitoring, and gnuplot, for plotting mathematical expressions. (Note that some of these apps won’t be installed by default, but you can grab them from the repositories.)
+
+Scientific Linux can be downloaded as a Live DVD image.
+
+Alternative: The developers of Scientific Linux encourage the creation of “spins” or builds based on their project. One such distro is Fermi Linux; a good, security-focused option for those who want to run Scientific Linux on a 32-bit system.
+
+5. Fedora Scientific
+scientific-linux-distros-fedora-spin
+
+This Fedora spin represents the middle ground between a highly specialized and an ordinary Linux distribution. As such, it’s great for researchers and students of all scientific backgrounds, although it slightly leans in favor of numerical-based research. The default desktop environment is KDE, and Fedora Scientific is available for both 32-bit and 64-bit architectures. It’s developed by Amit Saha with the support of Fedora Science and Technology SIG. Beautiful online documentation will introduce you to Fedora Scientific and guide you through its software selection.
+
+Software Highlights: Maxima, a complete algebra suite; LaTeX, for creating documents and presentations; Mayavi, for 3D data visualization, and the version control trifecta: git, Mercurial, and Subversion.
+
+You can download Fedora Scientific Live DVD either via direct download or as a torrent.
+
+Alternative: If you’re looking for a user-friendly scientific distribution that’s focused on mathematics, Mathbuntu is a fine replacement for Fedora Scientific. It’s available as a standalone distribution or as a set of packages for your current Ubuntu installation.
