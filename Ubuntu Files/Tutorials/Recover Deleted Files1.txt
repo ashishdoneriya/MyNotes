@@ -1,0 +1,27 @@
+sudo extundelete --restore-file /home/ashish/tmp/remaster-new-files/livecd.iso /dev/sda5
+sudo extundelete --restore-file /d/My Documents/My Videos/Episodes/Suits/ --output-dir "/d/recover" /dev/sda5 
+
+sudo extundelete --restore-file "/d/ 8 gb/New Folder" /dev/sda3
+
+sudo ntfsundelete /dev/sda3 -s -m '*.jpg' -t 1d
+
+sudo ntfsundelete /dev/sda3 -u -i 14290-15224 -d /home/ashish/asa
+
+
+https://help.ubuntu.com/community/DataRecovery/NtfsUndelete
+
+
+Look for deleted files on /dev/sda2.
+ntfsundelete /dev/sda2
+Look for deleted documents on /dev/sda2.
+ntfsundelete /dev/sda2 -s -m '*.doc'
+Look for deleted files between 5000 and 6000000 bytes, with at least 90% of the data recoverable, on /dev/sda2.
+ntfsundelete /dev/sda2 -S 5k-6m -p 90
+Look for deleted files altered in the last two days
+ntfsundelete /dev/sda2 -t 2d
+Undelete inodes 2, 5 and 100 to 131 of device /dev/sda2
+ntfsundelete /dev/sda2 -u -i 2,5,100-131
+Undelete inode number 3689, call the file 'work.doc' and put it in the user's home directory.
+ntfsundelete /dev/sda2 -u -i 3689 -o work.doc -d ~
+Save MFT Records 3689 to 3690 to a file 'debug'
+ntfsundelete /dev/sda2 -c 3689-3690 -o debug

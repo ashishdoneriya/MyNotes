@@ -1,0 +1,8 @@
+deepin_2014.2_amd64.iso
+dsl-4.4.10.iso
+puppy-4.2retro-k2.6.21.7-seamonkey.iso
+slax-English-US-7.0.8-x86_64.iso
+slitaz-aircrack-ng-20091124.iso
+ubuntu-14.04.2-desktop-amd64.iso
+zorin-os-11-core-64.iso
+elementry os
