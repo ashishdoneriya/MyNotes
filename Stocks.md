@@ -63,6 +63,9 @@ Maruti Suzuki
 
 Mrf ltd
 
+**Retail**
+
+Avenue Supermart
 
 **Miscellaneous**
 
