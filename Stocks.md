@@ -75,6 +75,8 @@ Yes Bank
 
 HDFC Bank
 
+Indusind Bank Ltd
+
 
 **Miscellaneous**
 
