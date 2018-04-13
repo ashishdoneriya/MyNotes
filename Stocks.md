@@ -63,9 +63,16 @@ Maruti Suzuki
 
 Mrf ltd
 
+
 **Retail**
 
 Avenue Supermart
+
+
+**Banks - Private Sector**
+
+Yes Bank
+
 
 **Miscellaneous**
 
