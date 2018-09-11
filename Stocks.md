@@ -1,3 +1,38 @@
+**Ceramics & Granite**
+- Kajaria Ceramics
+
+**Auto - Cars & Jeeps**
+- Maruti Suzuki
+
+**Auto - LCVs & HCVs**
+- Eicher Motors
+
+**Banks - Private Sector**
+- Yes Bank
+- HDFC Bank
+- Indusind Bank Ltd
+
+**Cement**
+- Ultratech Cement
+
+**Chemicals**
+- Pidilite
+
+**Electric Equipment**
+- VGuard
+
+**Finance**
+- Bharat Fin
+
+**Media & Entertainment**
+- PVR
+
+**Miscellaneous**
+- Titan
+
+**Plastic**
+- Supreme Industries
+
 **Paints & Varnishes**
 - Asian Paints
 - Kansai Nerolac
@@ -7,44 +42,8 @@
 - Dabur India
 - Marico Limited
 
-
-**Media & Entertainment**
-- PVR
-
-**Finance**
-- Bharat Fin
-
-**Plastic**
-- Supreme Industries
-
-**Chemicals**
-- Pidilite
-
-**Ceramics & Granite**
-- Kajaria Ceramics
-
-**Cement**
-- Ultratech Cement
-
-**Electric Equipment**
-- VGuard
-
-**Auto - LCVs & HCVs**
-- Eicher Motors
-
-**Auto - Cars & Jeeps**
-- Maruti Suzuki
-
-**Tyres**
-- Mrf ltd
-
 **Retail**
 - Avenue Supermart
 
-**Banks - Private Sector**
-- Yes Bank
-- HDFC Bank
-- Indusind Bank Ltd
-
-**Miscellaneous**
-- Titan
+**Tyres**
+- Mrf ltd
