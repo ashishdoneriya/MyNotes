@@ -1,83 +1,50 @@
 **Paints & Varnishes**
-
-Asian Paints
-
-Kansai Nerolac
-
+- Asian Paints
+- Kansai Nerolac
 
 **Personal Care ANalytics**
-
-HUL
-
-Dabur India
-
-Marico Limited
+- HUL
+- Dabur India
+- Marico Limited
 
 
 **Media & Entertainment**
-
-PVR
-
+- PVR
 
 **Finance**
-
-Bharat Fin
-
+- Bharat Fin
 
 **Plastic**
-
-Supreme Industries
-
+- Supreme Industries
 
 **Chemicals**
-
-Pidilite
-
+- Pidilite
 
 **Ceramics & Granite**
-
-Kajaria Ceramics
-
+- Kajaria Ceramics
 
 **Cement**
-
-Ultratech Cement
-
+- Ultratech Cement
 
 **Electric Equipment**
-
-VGuard
-
+- VGuard
 
 **Auto - LCVs & HCVs**
-
-Eicher Motors
-
+- Eicher Motors
 
 **Auto - Cars & Jeeps**
-
-Maruti Suzuki
-
+- Maruti Suzuki
 
 **Tyres**
-
-Mrf ltd
-
+- Mrf ltd
 
 **Retail**
-
-Avenue Supermart
-
+- Avenue Supermart
 
 **Banks - Private Sector**
-
-Yes Bank
-
-HDFC Bank
-
-Indusind Bank Ltd
-
+- Yes Bank
+- HDFC Bank
+- Indusind Bank Ltd
 
 **Miscellaneous**
-
-Titan
+- Titan
