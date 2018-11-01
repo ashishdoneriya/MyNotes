@@ -14,6 +14,7 @@
 
 **Cement**
 - Ultratech Cement
+- Shree Cement Limited `:star:`
 
 **Chemicals**
 - Pidilite
