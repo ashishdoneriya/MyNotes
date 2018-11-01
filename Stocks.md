@@ -9,15 +9,16 @@
 
 **Banks - Private Sector**
 - Yes Bank
-- HDFC Bank
+- HDFC Bank :star: :star: :star:
 - Indusind Bank Ltd
+- Kotak Mahindra Bank :star:
 
 **Cement**
 - Ultratech Cement
 - Shree Cement Limited :star:
 
 **Chemicals**
-- Pidilite
+- Pidilite :star: :star:
 
 **Electric Equipment**
 - VGuard
@@ -29,7 +30,7 @@
 - PVR
 
 **Miscellaneous**
-- Titan
+- Titan :star: :star: :star:
 
 **Plastic**
 - Supreme Industries
@@ -40,8 +41,8 @@
 
 **Personal Care ANalytics**
 - HUL
-- Dabur India
-- Marico Limited
+- Dabur India :star: :star:
+- Marico Limited :star: :star: 
 
 **Retail**
 - Avenue Supermart
