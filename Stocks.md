@@ -36,7 +36,7 @@
 - Supreme Industries
 
 **Paints & Varnishes**
-- Asian Paints
+- Asian Paints :star: :star: :star: :star: :star: (Consistency) 
 - Kansai Nerolac
 
 **Personal Care ANalytics**
