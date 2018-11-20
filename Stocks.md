@@ -24,6 +24,7 @@
 - Havels :star: :star: :star: :star: (Crisis in 2008,14,16,18)(5Y - 35%, 10Y - 23%)
 
 **Finance**
+- Bajaj Finance ltd. (5Y - 76%, 10Y - 78%)
 - Bharat Fin
 
 **Media & Entertainment**
