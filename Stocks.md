@@ -47,5 +47,8 @@
 **Retail**
 - Avenue Supermart (long term)
 
+**Textiles**
+- Page Industries (Jockey Underwear) (5 year - 41.63%, 10 year - 53.59%, consistent excpet 2014 but recovered soon) 
+
 **Tyres**
 - Mrf ltd
