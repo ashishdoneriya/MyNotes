@@ -8,7 +8,7 @@
 - Eicher Motors
 
 **Banks - Private Sector**
-- Yes Bank
+- Yes Bank (Management Not Good)
 - HDFC Bank :star: :star: :star:
 - Indusind Bank Ltd
 - Kotak Mahindra Bank :star:
@@ -21,7 +21,7 @@
 - Pidilite :star: :star:
 
 **Electric Equipment**
-- VGuard
+- Havels :star: :star: :star: :star:
 
 **Finance**
 - Bharat Fin
@@ -33,19 +33,19 @@
 - Titan :star: :star: :star:
 
 **Plastic**
-- Supreme Industries
+- Supreme Industries ( keep watching, later)
 
 **Paints & Varnishes**
 - Asian Paints :star: :star: :star: :star: :star: (Consistency) 
 - Kansai Nerolac
 
 **Personal Care ANalytics**
-- HUL
-- Dabur India :star: :star:
+- HUL (long term)
+- Dabur India ( Management Not Good)
 - Marico Limited :star: :star: 
 
 **Retail**
-- Avenue Supermart
+- Avenue Supermart (long term)
 
 **Tyres**
 - Mrf ltd
