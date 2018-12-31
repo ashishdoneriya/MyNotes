@@ -1,8 +1,0 @@
-annotum-sans
-autumn-almanac
-evening-sun
-modern-orange
-penumbra
-tender-spring
-Photum
-Visual was built off the foundation of Underscores (_s):
